@@ -4,6 +4,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
+
   return (
     <div className='footer-container'>
         <section class='social-media'>
@@ -16,46 +17,46 @@ function Footer() {
           </div>
           <small class='website-rights'>ANDRIJA © 2021</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            
+
+	  <Link
               class='social-icon-link instagram'
-              to='/'
+              to='/instagram'
               target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
             </Link>
+
+
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to='/youtube'
               target='_blank'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
             </Link>
+
+
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='/twitter'
               target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
             </Link>
+
             <Link
-              class='social-icon-link twitter'
-              to='/'
+              class='social-icon-link github'
+              to='/github'
               target='_blank'
-              aria-label='LinkedIn'
+              aria-label='github'
             >
-              <i class='fab fa-linkedin' />
+              <i class='fab fa-github' />
             </Link>
+
           </div>
         </div>
       </section>

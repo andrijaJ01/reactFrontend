@@ -17,6 +17,27 @@ function App() {
           <Route path='/about' component={Services} />
           <Route path='/projects' component={Products} />
           <Route path='/contact' component={SignUp} />
+	  <Route path='/instagram' component={() => { 
+     window.location.href = 'https://www.instagram.com/aandrija01_/'; 
+     return null;
+	  }}/>
+
+
+	  <Route path='/youtube' component={() => { 
+     window.location.href = 'https://www.youtube.com/channel/UCKDsCTjAFEhdzGgrT-wwzEQ'; 
+     return null;
+	  }}/>
+
+	  <Route path='/github' component={() => { 
+     window.location.href = 'https://github.com/andrijaJ01'; 
+     return null;
+	  }}/>
+
+
+	  <Route path='/twitter' component={() => { 
+     window.location.href = 'https://twitter.com/andrijaj01'; 
+     return null;
+	  }}/>
         </Switch>
       </Router>
     </>

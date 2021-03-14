@@ -11,34 +11,34 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.webp'
+              src='images/portfolio_1.webp'
               text='Search engine results scrapper'
               label='Python'
               path='/services'
             />
             <CardItem
-              src='images/img-2.webp'
-              text='reddit and discord bots'
+              src='images/portfolio_2.webp'
+              text='Reddit and Discord bots'
               label='Automation'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.webp'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/portfolio_3.webp'
+              text='First iteration of this website made with fastAPI and bootstrap'
+              label='Web'
               path='/services'
             />
             <CardItem
               src='images/img-4.webp'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='Lorem ipsum project'
               label='Adventure'
               path='/products'
             />
             <CardItem
               src='images/img-8.webp'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='Lorem ipsum project No 2'
               label='Adrenaline'
               path='/sign-up'
             />
