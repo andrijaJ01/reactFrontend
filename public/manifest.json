@@ -1,6 +1,6 @@
 {
-  "short_name": "portfolio",
-  "name": "Frontend for portfolio made with react js",
+  "short_name": "Portfolio",
+  "name": "Made by Andrija Jovanovic",
   "icons": [
     {
       "src": "favicon.ico",
@@ -13,13 +13,13 @@
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "logo256.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "256x256"
     }
   ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#242424"
 }
