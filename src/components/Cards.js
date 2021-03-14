@@ -32,13 +32,13 @@ function Cards() {
             />
             <CardItem
               src='images/img-4.webp'
-              text='Lorem ipsum project'
+              text='Lorem ipsum project (to be added)'
               label='Adventure'
               path='/products'
             />
             <CardItem
               src='images/img-8.webp'
-              text='Lorem ipsum project No 2'
+              text='Lorem ipsum project No 2 (to be added)'
               label='Adrenaline'
               path='/sign-up'
             />
