@@ -30,7 +30,6 @@
 	height: calc(100vh - 80px);
 
   font-size: 1.5rem;
-  padding: 10rem 2rem;
   
 }
 
@@ -58,4 +57,7 @@ font-size:1.2rem
   color: #f1f1f1;
   opacity:0.98;
   font-size: 100px;
+}
+.tline-txt{
+font-size:20px;
 }

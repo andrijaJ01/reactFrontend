@@ -6,9 +6,6 @@ video {
   z-index: -1;
 }
 
-h1,p{
-text-shadow: 1px 1px #ccc;
-}
 
 .hero-container {
   /*background: url('/images/img-home.jpg') center center/cover no-repeat;*/
