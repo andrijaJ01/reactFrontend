@@ -14,13 +14,13 @@ function Cards() {
               src='images/portfolio_1.webp'
               text='Search engine results scrapper'
               label='Python'
-              path='/about'
+              path='/'
             />
             <CardItem
               src='images/portfolio_2.webp'
               text='Reddit and Discord bots'
               label='Automation'
-              path='/about'
+              path='/'
             />
           </ul>
           <ul className='cards__items'>
@@ -28,19 +28,19 @@ function Cards() {
               src='images/portfolio_3.webp'
               text='First iteration of this website made with fastAPI and bootstrap'
               label='Web'
-              path='/about'
+              path='/'
             />
             <CardItem
               src='images/img-4.webp'
               text='Lorem ipsum project (to be added)'
               label='Adventure'
-              path='/about'
+              path='/'
             />
             <CardItem
               src='images/img-8.webp'
               text='Lorem ipsum project No 2 (to be added)'
               label='Adrenaline'
-              path='/about'
+              path='/'
             />
           </ul>
         </div>
