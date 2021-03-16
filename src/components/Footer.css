@@ -85,6 +85,10 @@
   transition: 0.3s ease-out;
 }
 
+.footer-link-items a:focus {
+	outline:none;
+	color:yellow
+}
 .footer-email-form h2 {
   margin-bottom: 2rem;
 }
@@ -98,7 +102,6 @@
   color: #fff;
   font-size: 24px;
 }
-
 .social-media {
   max-width: 1000px;
   width: 100%;
@@ -132,6 +135,8 @@
   margin-bottom: 16px;
 }
 
+.social-icons i:focus{outline:none;color:yellow;}
+.social-logo:focus{outline:none;color:yellow;}
 .website-rights {
   color: #fff;
   margin-bottom: 16px;

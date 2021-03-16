@@ -1,5 +1,9 @@
 
-*:focus{
+.navbar-logo:focus{
+outline:none;
+color: yellow
+}
+.nav-links:focus{
 outline:none;
 color: yellow
 }
