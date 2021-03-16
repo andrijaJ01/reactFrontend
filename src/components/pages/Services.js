@@ -40,7 +40,7 @@ export default function Services() {
 	  <>
 	  <h1 className='services'>{title}</h1>
 	  <div className='container'>
-<Chrono mode="VERTICAL_ALTERNATING" hideControls theme={{primary: "#242424", secondary: "#222222" , cardForeColor: "violet" }} allowDynamicUpdate>
+<Chrono mode="VERTICAL" hideControls theme={{primary: "#242424", secondary: "#222222" , cardForeColor: "violet" }} allowDynamicUpdate>
     <div>
       <p className='tline-txt'>{desc.split('$')[0]}</p>
     </div>
