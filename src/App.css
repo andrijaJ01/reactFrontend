@@ -10,7 +10,7 @@
 .products,
 .sign-up {
   display: flex;
-  height: 90vh;
+  height: calc(100vh - 80px);
   align-items: center;
   justify-content: center;
   font-size: 3rem;
@@ -55,7 +55,7 @@ font-size:1.2rem
   background-size: cover;
   background-repeat: no-repeat;
   color: #f1f1f1;
-  opacity:0.98;
+  opacity:0.95;
   font-size: 100px;
 }
 .tline-txt{
