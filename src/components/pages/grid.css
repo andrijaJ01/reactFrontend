@@ -1,8 +1,18 @@
 * {box-sizing: border-box;}
 
 .contact-form{
-width:50%;
+width:60%;
 margin:0 auto;
+
+}
+.contact-form-container{
+background-color:#f1f1f1;
+padding:2rem 2rem;
+width:70%;
+border:none;
+border-radius:10px;
+margin: 50px auto;
+box-shadow:2px 2px 20px -8px #234aba;
 }
 input[type=text],input[type=email], select, textarea {
   width: 100%;
@@ -13,8 +23,31 @@ input[type=text],input[type=email], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  transition:0.5s
+}
+input[type=email]:hover{
+
+  border: 1.5px solid #234aba;
+  border-radius: 4px;
 }
 
+input[type=text]:hover{
+
+  border: 1.5px solid #234aba;
+  border-radius: 4px;
+}
+
+select:hover {
+
+  border: 1.5px solid #234aba;
+  border-radius: 4px;
+}
+
+textarea:hover {
+
+  border: 1.5px solid #234aba;
+  border-radius: 4px;
+}
 input[type=submit] {
   background-color: #242424;
   color: white;
@@ -22,10 +55,9 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   opacity:0.8;
-  width:100%;
+  width:70%;
   height:4rem;
   line-height:4rem;
-
   transition:0.33s;
 }
 
@@ -33,3 +65,10 @@ input[type=submit]:hover {
 	opacity:1
 }
 
+@media screen only (max-width:300px){
+.contact-form{width:90%;}
+.contact-form-container{width:75%;}
+input[type=submit] {
+width:100%;
+}
+}

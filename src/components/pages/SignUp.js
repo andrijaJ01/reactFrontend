@@ -18,7 +18,8 @@ export default function SignUp() {
   }
 
   return (
-<div>
+	  <div className='cnt'>
+<div className='contact-form-container'>
     <form className="contact-form" onSubmit={sendEmail}>
       <input type="hidden" name="contact_number" />
       <label>Name</label>
@@ -31,6 +32,8 @@ export default function SignUp() {
       <textarea name="message" />
 	  <br/>
       <input type="submit" value="Send" />
-    </form></div>
+    </form>
+    </div>
+    </div>
   );
 }
