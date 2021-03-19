@@ -18,6 +18,7 @@ export default function SignUp() {
   }
 
   return (
+    <>
 	  <div className='cnt'>
 <div className='contact-form-container'>
 
@@ -36,5 +37,7 @@ export default function SignUp() {
     </form>
     </div>
     </div>
+    <Footer/>
+    </>
   );
 }
