@@ -95,3 +95,6 @@ width:100%;
 input[type=email]{
   height:3rem;
 }
+.cnt{
+height:calc(100vh - 80px)
+}
