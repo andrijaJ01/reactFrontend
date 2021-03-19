@@ -1,3 +1,4 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 * {box-sizing: border-box;}
 
 .contact-form{
@@ -11,7 +12,7 @@ padding:2rem 2rem;
 width:70%;
 border:none;
 border-radius:10px;
-margin: 50px auto;
+margin: 40px auto;
 box-shadow:2px 2px 20px -8px #234aba;
 }
 input[type=text],input[type=email], select, textarea {
@@ -24,6 +25,22 @@ input[type=text],input[type=email], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
   transition:0.5s
+}
+.contact-form-container h1{
+  font-family: 'Anton';
+  font-size:4vw;
+  background-image: url('/images/img-5.webp');
+  spacing:110%;
+  background-size: cover;
+  background-clip:text;
+  --webkit-background-clip:text;
+  color:transparent;
+}
+
+input[type=email]{
+  height:3.5rem;
+  line-height:3.5rem;
+
 }
 input[type=email]:hover{
 
@@ -54,21 +71,27 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  padding:1rem 0;
   opacity:0.8;
-  width:70%;
-  height:4rem;
-  line-height:4rem;
+  width:100%;
   transition:0.33s;
+  font-size: 30px;
+  line-height: 70%;
 }
-
+*::placeholder{
+  opacity:0.7;
+}
 input[type=submit]:hover {
-	opacity:1
+	opacity:1;
 }
 
-@media screen only (max-width:300px){
+@media screen only (min-width:300px){
 .contact-form{width:90%;}
 .contact-form-container{width:75%;}
 input[type=submit] {
 width:100%;
 }
+}
+input[type=email]{
+  height:3rem;
 }

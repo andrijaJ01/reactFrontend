@@ -1,4 +1,8 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
 * {
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -37,6 +41,7 @@
 .container {
 font-size:1.2rem
 }
+
 }
 
 .products {
@@ -61,3 +66,4 @@ font-size:1.2rem
 .tline-txt{
 font-size:20px;
 }
+

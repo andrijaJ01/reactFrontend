@@ -20,18 +20,19 @@ export default function SignUp() {
   return (
 	  <div className='cnt'>
 <div className='contact-form-container'>
-    <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="contact_number" />
+
+  <form className="contact-form"onSubmit={sendEmail}>
+      <input type="hidden"  name="contact_number" />
       <label>Name</label>
-      <input type="text" name="user_name" />
+      <input type="text" placeholder='enter your name' name="user_name" />
 	  <br/>
       <label>Email</label>
-      <input type="email" name="user_email" />
+      <input type="email" placeholder='enter your email' name="user_email" />
 	  <br/>
       <label>Message</label>
-      <textarea name="message" />
+      <textarea name="message" placeholder='enter your message' />
 	  <br/>
-      <input type="submit" value="Send" />
+      <input type="submit" value="SEND" />
     </form>
     </div>
     </div>
