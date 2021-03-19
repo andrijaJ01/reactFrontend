@@ -2,14 +2,14 @@
 * {box-sizing: border-box;}
 
 .contact-form{
-width:60%;
+width:70%;
 margin:0 auto;
 
 }
 .contact-form-container{
 background-color:#f1f1f1;
 padding:2rem 2rem;
-width:70%;
+width:80%;
 border:none;
 border-radius:10px;
 margin: 40px auto;
@@ -17,7 +17,7 @@ box-shadow:2px 2px 20px -8px #234aba;
 }
 input[type=text],input[type=email], select, textarea {
   width: 100%;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -28,7 +28,6 @@ input[type=text],input[type=email], select, textarea {
 }
 .contact-form-container h1{
   font-family: 'Anton';
-  font-size:4vw;
   background-image: url('/images/img-5.webp');
   spacing:110%;
   background-size: cover;
@@ -37,11 +36,6 @@ input[type=text],input[type=email], select, textarea {
   color:transparent;
 }
 
-input[type=email]{
-  height:3.5rem;
-  line-height:3.5rem;
-
-}
 input[type=email]:hover{
 
   border: 1.5px solid #234aba;
@@ -92,9 +86,7 @@ input[type=submit] {
 width:100%;
 }
 }
-input[type=email]{
-  height:3rem;
-}
+
 .cnt{
 height:calc(100vh - 80px)
 }
