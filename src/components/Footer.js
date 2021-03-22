@@ -15,7 +15,6 @@ function Footer() {
               <i class='fab fa-adn' />
             </Link>
           </div>
-          <small class='website-rights'>ANDRIJA © 2021</small>
           <div class='social-icons'>
             
 

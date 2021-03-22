@@ -1,16 +1,16 @@
 
 .navbar-logo:focus{
 outline:none;
-color: yellow
+color: #ee0000
 }
 .nav-links:focus{
 outline:none;
-color: yellow
+color: #ee0000
 }
 .navbar {
-  /*background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);*/
-  background: #242424;
-  height: 80px;
+background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+/*  background: #242424;
+ */ height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +69,7 @@ color: yellow
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid yellow;
+  border-bottom: 4px solid #ee0000;
   transition: all 0.2s ease-out;
 }
 

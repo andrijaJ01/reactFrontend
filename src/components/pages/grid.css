@@ -4,16 +4,16 @@
 .contact-form{
 width:70%;
 margin:0 auto;
-
 }
 .contact-form-container{
 background-color:#f1f1f1;
 padding:2rem 2rem;
-width:80%;
-border:none;
+width:75%;
+border: solid 1px #f1f1f1;
 border-radius:10px;
 margin: 40px auto;
-box-shadow:2px 2px 20px -8px #234aba;
+box-shadow:2px 2px 20px -2px blue;
+height: 75vh;
 }
 input[type=text],input[type=email], select, textarea {
   width: 100%;
@@ -26,6 +26,7 @@ input[type=text],input[type=email], select, textarea {
   resize: vertical;
   transition:0.5s
 }
+.centered{text-align:center}
 .contact-form-container h1{
   font-family: 'Anton';
   background-image: url('/images/img-5.webp');
@@ -38,25 +39,25 @@ input[type=text],input[type=email], select, textarea {
 
 input[type=email]:hover{
 
-  border: 1.5px solid #234aba;
+  border: 1.5px solid #ee0000;
   border-radius: 4px;
 }
 
 input[type=text]:hover{
 
-  border: 1.5px solid #234aba;
+  border: 1.5px solid #ee0000;
   border-radius: 4px;
 }
 
 select:hover {
 
-  border: 1.5px solid #234aba;
+  border: 1.5px solid #ee0000;
   border-radius: 4px;
 }
 
 textarea:hover {
 
-  border: 1.5px solid #234aba;
+  border: 1.5px solid #ee0000;
   border-radius: 4px;
 }
 input[type=submit] {
@@ -67,16 +68,24 @@ input[type=submit] {
   cursor: pointer;
   padding:1rem 0;
   opacity:0.8;
-  width:100%;
+  width:80%;
   transition:0.33s;
   font-size: 30px;
   line-height: 70%;
 }
-*::placeholder{
-  opacity:0.7;
+input::placeholder{
+  opacity:0.4;
 }
-input[type=submit]:hover {
-	opacity:1;
+
+textarea::placeholder{
+  opacity:0.4;
+}
+input:hover::placeholder{
+  opacity:0.6
+}
+
+textarea:hover::placeholder{
+  opacity:0.6
 }
 
 @media screen only (min-width:300px){

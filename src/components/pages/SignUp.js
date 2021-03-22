@@ -18,7 +18,6 @@ export default function SignUp() {
   }
 
   return (
-    <>
 	  <div className='cnt'>
 <div className='contact-form-container'>
 
@@ -30,14 +29,15 @@ export default function SignUp() {
       <label>Email</label>
       <input type="email" placeholder='enter your email' name="user_email" />
 	  <br/>
+
       <label>Message</label>
       <textarea name="message" placeholder='enter your message' />
 	  <br/>
+    <div className='centered'>
       <input type="submit" value="SEND" />
+      </div>
     </form>
     </div>
     </div>
-    <Footer/>
-    </>
   );
 }
