@@ -23,26 +23,6 @@ function Cards() {
               path='/'
             />
           </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/portfolio_3.webp'
-              text='First iteration of this website made with fastAPI and bootstrap'
-              label='Web'
-              path='/'
-            />
-            <CardItem
-              src='images/img-4.webp'
-              text='Lorem ipsum project (to be added)'
-              label='Adventure'
-              path='/'
-            />
-            <CardItem
-              src='images/img-8.webp'
-              text='Lorem ipsum project No 2 (to be added)'
-              label='Adrenaline'
-              path='/'
-            />
-          </ul>
         </div>
       </div>
     </div>
