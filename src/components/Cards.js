@@ -6,8 +6,9 @@ import CardItem from './CardItem';
 import { Button } from './Button';
 
 function Cards() {
-  return (
-    <div className='cards'>
+  return(
+    <div id="cards">
+    <div   className='cards'>
       <h1>Check out projects!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -34,6 +35,7 @@ function Cards() {
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 }

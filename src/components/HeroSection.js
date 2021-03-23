@@ -38,6 +38,7 @@ function HeroSection() {
     <div className='hero-container'>
       <h1>{name}</h1>
       <p>{text}</p>
+      <a href="#cards" className="button">LEARN MORE</a>
 
     </div>
   );
