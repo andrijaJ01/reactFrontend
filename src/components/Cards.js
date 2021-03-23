@@ -3,10 +3,12 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
+import { Button } from './Button';
+
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Projects!</h1>
+      <h1>Check out projects!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -17,8 +19,15 @@ function Cards() {
               path='/'
             />
             <CardItem
+              src='images/img-1.webp'
+              text='Discord Bot'
+              label='Automation'
+              path='/'
+            />
+
+            <CardItem
               src='images/portfolio_2.webp'
-              text='Reddit and Discord bots'
+              text='NASA APOD Wallpaper changer'
               label='Automation'
               path='/'
             />

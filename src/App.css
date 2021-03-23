@@ -22,6 +22,13 @@
   background-image: url('/images/img2.webp');
   background-position: center;
   background-size: cover;
+   
+   
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+
   opacity:0.95;
   background-repeat: no-repeat;
   color: #fff;
@@ -33,7 +40,8 @@
 
   font-size: 1.5rem;
   
-  line-height:calc(100vh - 80px)
+  line-height:calc(100vh - 80px);
+  display: flex;
 }
 
 @media (min-width:300px){
@@ -45,7 +53,10 @@ font-size:1.2rem
 
 .products {
   background-image: url('/images/img1.webp');
-  background-position: center;
+  background-position: center; 
+  min-width: 100%;
+  min-height: 100%;
+
   background-size: fill;
   background-repeat: no-repeat;
   opacity:0.95;
@@ -57,6 +68,9 @@ font-size:1.2rem
   background-image: url('/images/img3.webp');
   background-position: center;
   background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+
   background-repeat: no-repeat;
   color: #f1f1f1;
   opacity:0.95;
@@ -66,3 +80,17 @@ font-size:1.2rem
 font-size:20px;
 }
 
+.timelineItem{
+  align-items: flex-start;
+  border-radius: 4px;
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.2));
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  margin: 1em 0;
+  position: relative;
+  min-height: 200px;
+  width: 100%;
+  overflow: hidden;
+  line-height:1.5rem;
+}

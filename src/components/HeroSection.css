@@ -2,6 +2,9 @@
   /*background: url('/images/img-home.jpg') center center/cover no-repeat;*/
   background: url('/images/img1.webp') center center/cover no-repeat;
   height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
+
   opacity:0.95;
   width: 100%;
   display: flex;
