@@ -18,20 +18,20 @@ function Cards() {
               src='images/portfolio_1.webp'
               text='Search engine results scrapper'
               label='Python'
-              path='/'
+              path='/project/1'
             />
             <CardItem
               src='images/img-1.webp'
               text='Discord Bot'
               label='Automation'
-              path='/'
+              path='/project/2'
             />
 
             <CardItem
               src='images/portfolio_2.webp'
               text='NASA APOD Wallpaper changer'
               label='Automation'
-              path='/'
+              path='/project/3'
             />
           </ul>
 

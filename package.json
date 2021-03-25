@@ -11,6 +11,7 @@
     "react": "^16.13.1",
     "react-chrono": "^1.9.2",
     "react-dom": "^16.13.1",
+    "react-fetch-hook": "^1.8.5",
     "react-form": "^4.0.1",
     "react-hook-form": "^6.15.4",
     "react-router-dom": "^5.2.0",

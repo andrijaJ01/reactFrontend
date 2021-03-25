@@ -6,6 +6,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
+import Proj1 from './components/pages/proj1';
+import Proj2 from './components/pages/proj2';
+import Proj3 from './components/pages/proj3';
+
+
+
 
 function App() {
   return (
@@ -16,6 +22,10 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/about' component={Services} />
           <Route path='/projects' component={Products} />
+          <Route path='/project/1' component={Proj1} />
+          <Route path='/project/2' component={Proj2} />
+          <Route path='/project/3' component={Proj3} />
+
           <Route path='/contact' component={SignUp} />
 	  <Route path='/instagram' component={() => { 
      window.location.href = 'https://www.instagram.com/aandrija01_/'; 
