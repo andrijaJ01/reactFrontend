@@ -2,6 +2,7 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import { Link } from 'react-router-dom';
 
 import { Button } from './Button';
 
@@ -33,7 +34,10 @@ function Cards() {
               path='/'
             />
           </ul>
+
         </div>
+        <Link to="/projects" className="button-more">MORE PROJECTS</Link>
+
       </div>
     </div>
     </div>

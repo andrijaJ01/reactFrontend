@@ -7,13 +7,14 @@ margin:0 auto;
 }
 .contact-form-container{
 background-color:#f1f1f1;
-padding:2rem 2rem;
-width:75%;
+padding:4rem 2rem;
+width:70%;
+max-height: 80vh;
 border: solid 1px #f1f1f1;
 border-radius:10px;
 margin: 40px auto;
-box-shadow:2px 2px 20px -2px blue;
-height: 75vh;
+box-shadow:2px 2px 20px -4px #242424;
+
 }
 input[type=text],input[type=email], select, textarea {
   width: 100%;
@@ -27,39 +28,7 @@ input[type=text],input[type=email], select, textarea {
   transition:0.5s
 }
 .centered{text-align:center}
-.contact-form-container h1{
-  font-family: 'Anton';
-  background-image: url('/images/img-5.webp');
-  spacing:110%;
-  background-size: cover;
-  background-clip:text;
-  --webkit-background-clip:text;
-  color:transparent;
-}
 
-input[type=email]:hover{
-
-  border: 1.5px solid #ee0000;
-  border-radius: 4px;
-}
-
-input[type=text]:hover{
-
-  border: 1.5px solid #ee0000;
-  border-radius: 4px;
-}
-
-select:hover {
-
-  border: 1.5px solid #ee0000;
-  border-radius: 4px;
-}
-
-textarea:hover {
-
-  border: 1.5px solid #ee0000;
-  border-radius: 4px;
-}
 input[type=submit] {
   background-color: #242424;
   color: white;
@@ -72,6 +41,7 @@ input[type=submit] {
   transition:0.33s;
   font-size: 30px;
   line-height: 70%;
+  border-radius: 999px;
 }
 input::placeholder{
   opacity:0.4;
@@ -88,9 +58,10 @@ textarea:hover::placeholder{
   opacity:0.6
 }
 
-@media screen only (min-width:300px){
-.contact-form{width:90%;}
-.contact-form-container{width:75%;}
+@media screen (min-width:300px){
+
+.contact-form{width:100%;}
+.contact-form-container{width:75%;height:50vh;}
 input[type=submit] {
 width:100%;
 }

@@ -10,7 +10,7 @@ import SignUp from './components/pages/SignUp';
 function App() {
   return (
     <>
-      <Router>
+      <Router onUpdate={() => window.scrollTo(0, 0)}>
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />

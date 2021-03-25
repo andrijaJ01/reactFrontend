@@ -103,6 +103,10 @@ h1 {
   .content__blog__container {
     width: 84%;
   }
+  .button-more{
+    width: 30%;
+  margin-top: 4rem;
+}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -115,4 +119,40 @@ h1 {
   .cards__item {
     margin-bottom: 2rem;
   }
+}
+
+
+.button-more{
+
+  text-decoration: none;
+  color: #000;
+  border-radius: 6px;
+  box-shadow: 1px 1px -2px white;
+  padding: 1.5rem 1.5rem;
+  text-align: center;
+  width: 25%;
+  margin:5rem; 
+  transition: 280ms ease-in-out;
+  background-color: inherit;
+  border:2px solid black;
+  margin-top: -20px;
+
+}
+.button-more:hover{
+  color: white;  
+
+  background-color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+  .button-more{
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin-top: 1.8rem;
+    padding: 1.5rem 1.5rem;
+
+  }
+
 }
